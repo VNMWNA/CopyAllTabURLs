@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Copy All Tab URLs",
+    "version": "1.1",
+    "description" : "開いてるタブを全部クリップボードにコピーする",
+    "permission" :["tabs","clipbordWrite"],
+    "action":{
+        "default_popup":"popup.html",
+        "default_title":"Copy URLs"
+    },
+    "background":{
+        "service_worker": "background.js"
+    }
+}
